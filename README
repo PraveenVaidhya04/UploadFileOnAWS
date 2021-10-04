@@ -1,0 +1,37 @@
+*PROJECT FOR UPLOAD FILE ON AWS S3.*
+
+step1:- Download and Install Python on your server/pc (here we use Python 3.9.6 )
+
+step2:- Create and activate your python virtual environment.
+
+step3:- Install all required python package using one single command on your terminal/powershell/cmd/putty
+
+		pip install -r requirments.txt
+
+step4:- Here we use sqlite database, for database we need to migrations and migrate table according to project.
+
+	migrations :- python manage.py makemigrations
+	migrate    :- python manage.py migrate
+
+step5:- Create superuser/admin
+	
+	create super user :- python manage.py createsuperuser
+
+and follow some step like username, email, password
+
+step6:- Run project
+
+	run      :- python manage.py runserver
+
+
+-------------------------------------------------------------
+*FOR API I ATTACH A POSTMANT COLLECTION FILE.*
+
+Upload file on AWS S3.postman_collection
+
+
+-------------------------------------------------------------
+*UPLOAD FILE FORMAT*
+
+Here we upload only image file on Base64 format.
+--------------------------------------------------------------
